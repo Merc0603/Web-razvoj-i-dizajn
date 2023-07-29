@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>WRD Ispit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <section class="logo-container">
+                <img src="images/logo.png" alt="logo" />
+            </section>
+            <ul class="nav-primary">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-title">Enjoy Your Dream Vacation</h1>
+        <p>Travel to the any corner of the world, without going around in circles.</p>
+    </header>
+
+    <main>
+
+
+        <section  id="best-offers">
+            <select id ="firma" style="">
+               
+            </select>
+            <h2 class="ponuda-dugme dugme-get-offers" onclick="preuzmi()">Best Offers</h2>
+            <p class="subtitle">Check out our top-rated tours</p>
+
+            <div id="destinacije" class="offers-container">
+               
+             
+            </div>
+        </section>
+
+        <div id="contact-form">
+
+            <div class="container">
+                <div class="item">
+                    <label for="destinacija">Destinacija</label>
+                    <input type="text" id="destinacija" disabled />
+                </div>
+                <div class="item">
+                    <label for="soba">Soba</label>
+                    <input type="text" id="soba" disabled />
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="container">
+                <div class="item">
+                    <label class="bold" for="brojGostiju">Broj gostiju</label>
+                    <input type="number" id="brojGostiju" min="1" max="5" oninput="promjenaBrojaGostiju()" />
+                </div>
+                <div class="item">
+                    <label for="cijenaPoGostu">Cijena po gostu</label>
+                    <input type="text" id="cijenaPoGostu" disabled />
+                </div>
+            </div>
+          
+            <div class="container">
+                <div class="item">
+                  
+                </div>
+                <div class="item">
+                    <label class="bold" for="ukupnaCijena">Sumarno za sve goste</label>
+                    <input type="text" id="ukupnaCijena" disabled />
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div id="gosti">
+                <div class="item-full">
+                    <label>Ime gosta 1</label>
+                    <input  />
+                </div>
+                <div class="item-full">
+                    <label>Ime gosta 2</label>
+                    <input  />
+                </div>
+            </div>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <div class="container">
+                <div class="item">
+                    <label for="brojIndeksa">Broj indeksa</label>
+                    <input id="brojIndeksa" oninput="provjeriIndeks()"/>
+                </div>
+                <div class="item">
+                    <label for="phone">Phone</label>
+                    <input id="phone" oninput="provjeriTelefon()"/>
+                </div>
+            </div>
+
+            <textarea name="messagetxt" id="messagetxt"></textarea>
+
+            <button class="button" onclick="posalji()">Send</button>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Copyright © 2017 SunTravel. All Rights Reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Contact Support</a></li>
+        </ul>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+</html>

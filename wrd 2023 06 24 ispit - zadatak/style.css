@@ -1,0 +1,264 @@
+﻿
+#contact-form {
+    margin: 20px 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-form .container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#contact-form .item {
+    width: 50%;
+}
+
+#contact-form .item:nth-of-type(2n+2) {
+    margin-left: 20px;
+}
+
+#contact-form label {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+}
+
+#contact-form input {
+    width: 100%;
+    padding: 10px;
+}
+
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+}
+
+#contact-form .button {
+    width: 150px;
+    background-color: #E97820;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    box-shadow: 3px 3px 10px 1px rgba(227, 227, 227, 0.7);
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#contacts {
+    margin-top: 40px;
+}
+
+#contacts .contacts-container {
+    width: 80%;
+}
+
+#contacts .contacts-title {
+    color: #3E3F40;
+    border-bottom: 1px solid #D3D3D3;
+    margin-top: 20px;
+}
+
+#contacts i {
+    position: relative;
+    /**/
+    top: 20px;
+    /**/
+    color: #00B2A9;
+    font-weight: bold;
+}
+
+#contacts p {
+    padding-left: 25px;
+    /**/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+.bold{
+    font-weight: bold
+}
+
+.ponuda-dugme  {
+    background-color: rgb(67, 137, 137);
+    padding: 6px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.dugme-get-offers{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    background: url(images/background.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+header .nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+header .nav-primary {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header .nav-primary li {
+    padding: 0 10px;
+}
+
+header .nav-primary li a {
+    display: block;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .header-title {
+    padding-top: 200px;
+    font-weight: normal;
+}
+
+header p {
+    padding-bottom: 200px;
+}
+
+main {
+    width: 100%;
+}
+
+main .title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+main .subtitle {
+    text-align: center;
+    color: #8A8A8A;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
+
+
+footer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: #8A8A8A;
+    font-size: 0.7em;
+    padding: 30px 0;
+    margin: auto;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+footer .footer-links li {
+    margin-left: 20px;
+}
+
+footer .footer-links li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #8A8A8A;
+}
+
+
+#firma
+{
+    display: block;
+  height: 25px;
+  width: 200px;  
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.offer-image {
+    background-size: cover;
+    height: 250px;
+   
+}
+
+.offer-footer{
+    padding: 10px;
+    margin: 0px 0;
+    position: relative;
+}
+
+.offer {
+    border: none;
+    box-shadow: 3px 3px 5px 0px rgba(171, 171, 171, 1);
+    width: 30%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.offer-option{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.offer-destination{
+    font-weight: bold;
+}
+
+
+.akcija{
+    position: absolute;
+    right: 0px;
+    top: 35px;
+    rotate: 35deg;
+    background-color: #ff000061;
+    color: white;
+}
+
+#destinacije{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px){
+
+}
